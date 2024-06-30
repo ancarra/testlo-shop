@@ -74,8 +74,12 @@ Nest is [MIT licensed](LICENSE).
 
 # Teslo API
 
-1. Levantar la BD 
+1. Clonar el proyecto
+2. ``` npm install ```
+3. Clonar el archivo ```.env.template``` y renombarlo a ```.env```
+5 Levantar la BD
 ```
-docker compose up
+docker compose up -d
 
 ```
+6. levantar: ```npm run dev```
