@@ -29,7 +29,7 @@ export class Product {
     })
     slug: string;
 
-    @Column('int', {
+    @Column('float', {
         default: 0
     }
     )
