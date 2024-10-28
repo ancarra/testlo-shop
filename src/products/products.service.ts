@@ -159,4 +159,5 @@ export class ProductsService {
     this.logger.error(error);
     throw new InternalServerErrorException('Unexpected error !');
   }
+  
 }
