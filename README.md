@@ -82,4 +82,4 @@ Nest is [MIT licensed](LICENSE).
 docker compose up -d
 
 ```
-6. levantar: ```npm run dev```
+6. levantar: ```npm run start:dev```
